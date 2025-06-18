@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrisenStacker</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fontello.css">
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Command Stacker</h1>
+        </header>
+        <main>
+            <div id="controlpanel" class="outerbox">
+                <button class="controlbutton icon-plus" onclick="plusClick()"></button>
+                <button class="controlbutton icon-minus" onclick="minusClick()"></button>
+                
+                <button class="controlbutton icon-ok" onclick="calcClick()"></button>
+            </div>
+            <div id="commandbox" class="outerbox">
+                <div class="command">
+                    <div class="command-text">
+                        <input type="text" class="command-text">
+                    </div>
+                    <div class="command-trash">
+                        <button class="command-trash icon-minus"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="outerbox">
+                <textarea id="command-output"></textarea>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
