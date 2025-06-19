@@ -3,7 +3,7 @@ html, head, body {
 }
 
 * {
-    font-family: Arial;
+    font-family: Arial, Liberation Sans, sans-serif;
 }
 
 body {
@@ -93,8 +93,4 @@ div#controlpanel.outerbox {
     width: 208px;
     margin-left: auto;
     margin-right: auto;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: Arial;
 }
