@@ -93,5 +93,8 @@ div#controlpanel.outerbox {
     width: 208px;
     margin-left: auto;
     margin-right: auto;
-    marg
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial;
 }
